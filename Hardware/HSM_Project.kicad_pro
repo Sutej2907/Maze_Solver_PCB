@@ -624,27 +624,15 @@
     ],
     [
       "ac18e862-6ffc-44ea-b67e-4cb824815cfe",
-      "Power_Module"
+      "Power Unit"
     ],
     [
       "065986a2-ca92-4064-aa1f-d48692b7b6d2",
-      "Microcontroller_Module"
+      "Control Unit"
     ],
     [
       "aa30e6f0-5a86-4ecd-9d71-cf09508d66d2",
-      "Proximity_Sensors_Module"
-    ],
-    [
-      "9912c247-c389-4231-9a0e-d0bba435b8c7",
-      "Motors_Module"
-    ],
-    [
-      "1c31cda9-2913-4204-820a-9fc44525dea4",
-      "Bluetooth Module"
-    ],
-    [
-      "86abd5f0-c5db-46dc-9247-765b05fcfb00",
-      "IMU_MODULE"
+      "Sensor Unit"
     ]
   ],
   "text_variables": {}

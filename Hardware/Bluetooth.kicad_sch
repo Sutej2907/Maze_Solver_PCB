@@ -280,8 +280,8 @@
 		)
 	)
 	(rectangle
-		(start 101.6 72.39)
-		(end 186.69 106.68)
+		(start 106.68 72.39)
+		(end 170.18 106.68)
 		(stroke
 			(width 0)
 			(type default)
@@ -293,7 +293,7 @@
 	)
 	(text "HC-05[BLUETOOTH MODULE]"
 		(exclude_from_sim no)
-		(at 115.57 70.612 0)
+		(at 120.142 70.866 0)
 		(effects
 			(font
 				(size 1.27 1.27)
