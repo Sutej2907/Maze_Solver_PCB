@@ -1,4 +1,4 @@
-27243824368118049
+27250929572692040
 AS5600-ASOT
 SOIC127P600X175-8N
 <b>SOIC-8</b><br>
@@ -60178,6 +60178,13 @@ ceramic
 0
 3
 3
+Custom_Sensors
+Untitled
+
+
+0
+0
+0
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -71819,6 +71826,34 @@ Yellow 5381 Series LED
 0
 2
 2
+Micromouse_Footprints
+BNO055
+
+
+0
+10
+10
+Micromouse_Footprints
+DRV8833
+
+
+0
+12
+12
+Micromouse_Footprints
+MP1584
+
+
+0
+0
+0
+Micromouse_Footprints
+SRT_MPT1584EN_Module
+
+Power 5V 3A
+0
+8
+8
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -100827,13 +100862,6 @@ Teensy 3.5/4.1 Footprint Extended<br><a href="https://www.pjrc.com/store/teensy3
 0
 50
 50
-TEFT4300 (2)
-XDCR_TEFT4300
-
-
-0
-2
-2
 TS09_TACTILE_SWITCH
 SW_TS09-63-25-R-260-SMT-TR
 
