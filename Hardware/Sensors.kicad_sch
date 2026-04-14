@@ -873,33 +873,33 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SFH_4545:SFH_4545"
+		(symbol "SFH_4545_2"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at -3.556 4.826 0)
+			(property "Reference" "D4"
+				(at -2.5014 5.08 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
 			(property "Value" "SFH_4545"
-				(at -3.556 -3.302 0)
+				(at 0.0386 5.08 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "SFH_4545:DIO_SFH_4545"
-				(at 0 0 0)
+			(property "Footprint" "LED_THT:LED_D5.0mm"
+				(at -1.27 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -927,7 +927,7 @@
 				)
 			)
 			(property "MF" "OSRAM Opto"
-				(at 0 0 0)
+				(at 0 17.272 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -937,7 +937,7 @@
 				)
 			)
 			(property "Description_1" "Infrared (IR) Emitter 950nm 1.5V 100mA 550mW/sr @ 100mA 10° Radial"
-				(at 0 0 0)
+				(at -1.27 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -967,7 +967,7 @@
 				)
 			)
 			(property "Check_prices" "https://www.snapeda.com/parts/SFH%204545/Osram/view-part/?ref=eda"
-				(at 0 0 0)
+				(at 0.254 18.288 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -977,7 +977,7 @@
 				)
 			)
 			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
+				(at -1.27 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -997,7 +997,7 @@
 				)
 			)
 			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SFH%204545/Osram/view-part/?ref=snap"
-				(at 0 0 0)
+				(at 0.254 17.272 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1017,7 +1017,7 @@
 				)
 			)
 			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=78935&manufacturer=OSRAM Opto&part_name=SFH 4545&search_term=None"
-				(at 0 0 0)
+				(at -2.286 18.796 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1027,7 +1027,7 @@
 				)
 			)
 			(property "Availability" "In Stock"
-				(at 0 0 0)
+				(at -17.526 16.002 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1046,7 +1046,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SFH_4545_0_0"
+			(symbol "SFH_4545_2_0_0"
 				(polyline
 					(pts
 						(xy -2.54 1.524) (xy -2.54 0)
@@ -1296,6 +1296,8 @@
 						(justify left bottom)
 					)
 				)
+			)
+			(symbol "SFH_4545_2_1_0"
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -1306,7 +1308,7 @@
 							)
 						)
 					)
-					(number "A"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1324,7 +1326,7 @@
 							)
 						)
 					)
-					(number "C"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1335,32 +1337,32 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TEFT4300:TEFT4300"
+		(symbol "TEFT4300_2"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at -10.1556 5.0822 0)
+			(property "Reference" "Q3"
+				(at 6.35 1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
 			(property "Value" "TEFT4300"
-				(at -10.1508 -7.62 0)
+				(at 6.35 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "TEFT4300:XDCR_TEFT4300"
+			(property "Footprint" "LED_THT:LED_D3.0mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1498,7 +1500,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TEFT4300_0_0"
+			(symbol "TEFT4300_2_0_0"
 				(polyline
 					(pts
 						(xy -4.953 2.54) (xy -3.175 0.762)
@@ -1714,6 +1716,8 @@
 						(type outline)
 					)
 				)
+			)
+			(symbol "TEFT4300_2_1_0"
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
@@ -1724,7 +1728,7 @@
 							)
 						)
 					)
-					(number "C"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1742,7 +1746,7 @@
 							)
 						)
 					)
-					(number "E"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2787,16 +2791,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 46.99) (xy 193.04 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bcb0d14-ca45-42f3-8533-e51a9e8a3533")
-	)
-	(wire
-		(pts
 			(xy 81.28 106.68) (xy 81.28 111.76)
 		)
 		(stroke
@@ -3117,6 +3111,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 52.07) (xy 156.21 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8903e858-933d-4e02-abcb-2a3672a242f0")
+	)
+	(wire
+		(pts
 			(xy 119.38 63.5) (xy 119.38 64.77)
 		)
 		(stroke
@@ -3157,16 +3161,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 52.07) (xy 156.21 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "933050b2-6155-455a-95cb-d3646288358c")
-	)
-	(wire
-		(pts
 			(xy 92.71 40.64) (xy 92.71 64.77)
 		)
 		(stroke
@@ -3194,16 +3188,6 @@
 			(type default)
 		)
 		(uuid "97941038-958a-4b0e-8b83-d7fb0d4bee1e")
-	)
-	(wire
-		(pts
-			(xy 193.04 36.83) (xy 193.04 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97c024f0-9505-425f-92b8-d9e352e60940")
 	)
 	(wire
 		(pts
@@ -3364,6 +3348,16 @@
 			(type default)
 		)
 		(uuid "c4405cbb-93ff-426a-852b-5eba2faaff76")
+	)
+	(wire
+		(pts
+			(xy 193.04 49.53) (xy 193.04 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c665155d-f429-49d7-9662-5f4eef856dbf")
 	)
 	(wire
 		(pts
@@ -4685,6 +4679,188 @@
 		)
 	)
 	(symbol
+		(lib_name "TEFT4300_2")
+		(lib_id "TEFT4300:TEFT4300")
+		(at 152.4 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b6684df-6ab5-41f7-bacd-c553c67878b6")
+		(property "Reference" "Q13"
+			(at 158.75 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TEFT4300"
+			(at 158.75 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Vishay Semiconductor"
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.10mm"
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "Radial Vishay"
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TEFT4300/Vishay/view-part/?ref=eda"
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TEFT4300/Vishay/view-part/?ref=snap"
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TEFT4300"
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=213585&manufacturer=Vishay Semiconductor&part_name=TEFT4300&search_term=None"
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Phototransistors 925nm Top View Radial, 3mm Dia (T-1)"
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b441a568-8f50-45ec-a2a3-481da8534db2")
+		)
+		(pin "1"
+			(uuid "9cdddadb-1e35-4c19-857d-14c53f6b459a")
+		)
+		(instances
+			(project "HSM_Project"
+				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/aa30e6f0-5a86-4ecd-9d71-cf09508d66d2"
+					(reference "Q13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSM_Symbols:VL530X")
 		(at 224.79 120.65 0)
 		(unit 1)
@@ -5524,6 +5700,198 @@
 		)
 	)
 	(symbol
+		(lib_name "SFH_4545_2")
+		(lib_id "SFH_4545:SFH_4545")
+		(at 81.28 48.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2984aef4-1a0b-4408-a2e8-276868a0bc0f")
+		(property "Reference" "D1"
+			(at 86.36 45.7586 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SFH_4545"
+			(at 86.36 48.2986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 99.06 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "OSRAM Opto"
+			(at 98.552 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Infrared (IR) Emitter 950nm 1.5V 100mA 550mW/sr @ 100mA 10° Radial"
+			(at 99.06 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 81.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 81.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SFH%204545/Osram/view-part/?ref=eda"
+			(at 99.568 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 99.06 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.5"
+			(at 81.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SFH%204545/Osram/view-part/?ref=snap"
+			(at 98.552 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SFH 4545"
+			(at 81.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=78935&manufacturer=OSRAM Opto&part_name=SFH 4545&search_term=None"
+			(at 100.076 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 97.282 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "OSRAM"
+			(at 81.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b2ed7a3c-14b9-4807-9add-174bbe6940c5")
+		)
+		(pin "1"
+			(uuid "de03a9e2-d933-440c-a123-acf40c885cfb")
+		)
+		(instances
+			(project "HSM_Project"
+				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/aa30e6f0-5a86-4ecd-9d71-cf09508d66d2"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 92.71 66.04 0)
 		(unit 1)
@@ -5652,186 +6020,6 @@
 			(project "HSM_Project"
 				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/aa30e6f0-5a86-4ecd-9d71-cf09508d66d2"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TEFT4300:TEFT4300")
-		(at 54.61 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3eada0d6-e790-472b-99b6-a7ef81757397")
-		(property "Reference" "Q4"
-			(at 60.96 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TEFT4300"
-			(at 60.96 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 54.61 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Semiconductor"
-			(at 54.61 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.10mm"
-			(at 54.61 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "Radial Vishay"
-			(at 54.61 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 54.61 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 54.61 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TEFT4300/Vishay/view-part/?ref=eda"
-			(at 54.61 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TEFT4300/Vishay/view-part/?ref=snap"
-			(at 54.61 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TEFT4300"
-			(at 54.61 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=213585&manufacturer=Vishay Semiconductor&part_name=TEFT4300&search_term=None"
-			(at 54.61 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 54.61 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Phototransistors 925nm Top View Radial, 3mm Dia (T-1)"
-			(at 54.61 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "E"
-			(uuid "a43fb99c-b321-4082-bd80-5c57de5b481e")
-		)
-		(pin "C"
-			(uuid "fc5d9bc8-32cb-4367-8954-de59c8c844ae")
-		)
-		(instances
-			(project "HSM_Project"
-				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/aa30e6f0-5a86-4ecd-9d71-cf09508d66d2"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -6456,6 +6644,189 @@
 		)
 	)
 	(symbol
+		(lib_name "TEFT4300_2")
+		(lib_id "TEFT4300:TEFT4300")
+		(at 78.74 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55611ddb-8c3f-4ec8-9068-cfa8eb8f1e5a")
+		(property "Reference" "Q5"
+			(at 85.09 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TEFT4300"
+			(at 85.09 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Vishay Semiconductor"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.10mm"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "Radial Vishay"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TEFT4300/Vishay/view-part/?ref=eda"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TEFT4300/Vishay/view-part/?ref=snap"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TEFT4300"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=213585&manufacturer=Vishay Semiconductor&part_name=TEFT4300&search_term=None"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Phototransistors 925nm Top View Radial, 3mm Dia (T-1)"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4a837c94-70dd-41c2-b542-c73f286612e4")
+		)
+		(pin "1"
+			(uuid "8b6a3413-1279-415a-bfbb-e3679691ad1b")
+		)
+		(instances
+			(project "HSM_Project"
+				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/aa30e6f0-5a86-4ecd-9d71-cf09508d66d2"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "TEFT4300_2")
 		(lib_id "TEFT4300:TEFT4300")
 		(at 29.21 97.79 0)
 		(unit 1)
@@ -6621,197 +6992,16 @@
 				(hide yes)
 			)
 		)
-		(pin "E"
+		(pin "2"
 			(uuid "7418028f-11d9-4f98-a112-9fab25adceab")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "438f2ff0-c02a-4784-98d4-dfe971b5c026")
 		)
 		(instances
 			(project ""
 				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/aa30e6f0-5a86-4ecd-9d71-cf09508d66d2"
 					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TEFT4300:TEFT4300")
-		(at 102.87 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57e00ee4-ccde-4500-beac-a9ea8ecc3f0f")
-		(property "Reference" "Q6"
-			(at 109.22 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TEFT4300"
-			(at 109.22 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 102.87 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 102.87 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Semiconductor"
-			(at 102.87 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.10mm"
-			(at 102.87 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "Radial Vishay"
-			(at 102.87 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 102.87 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 102.87 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TEFT4300/Vishay/view-part/?ref=eda"
-			(at 102.87 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TEFT4300/Vishay/view-part/?ref=snap"
-			(at 102.87 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TEFT4300"
-			(at 102.87 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=213585&manufacturer=Vishay Semiconductor&part_name=TEFT4300&search_term=None"
-			(at 102.87 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 102.87 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Phototransistors 925nm Top View Radial, 3mm Dia (T-1)"
-			(at 102.87 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "E"
-			(uuid "59cc0cea-edb8-4472-83cf-325826b33895")
-		)
-		(pin "C"
-			(uuid "dbdc29f8-799d-4739-83b9-d3175fd5e173")
-		)
-		(instances
-			(project "HSM_Project"
-				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/aa30e6f0-5a86-4ecd-9d71-cf09508d66d2"
-					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -7434,6 +7624,188 @@
 		)
 	)
 	(symbol
+		(lib_name "TEFT4300_2")
+		(lib_id "TEFT4300:TEFT4300")
+		(at 102.87 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79ba19c9-392c-4b40-80e8-4e6165d6159a")
+		(property "Reference" "Q6"
+			(at 109.22 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TEFT4300"
+			(at 109.22 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Vishay Semiconductor"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.10mm"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "Radial Vishay"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TEFT4300/Vishay/view-part/?ref=eda"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TEFT4300/Vishay/view-part/?ref=snap"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TEFT4300"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=213585&manufacturer=Vishay Semiconductor&part_name=TEFT4300&search_term=None"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Phototransistors 925nm Top View Radial, 3mm Dia (T-1)"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2859f4fb-3768-49b2-8cfe-f9b420ec6f1f")
+		)
+		(pin "1"
+			(uuid "00d04568-710d-4e1c-b0d6-45b47bb9ead4")
+		)
+		(instances
+			(project "HSM_Project"
+				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/aa30e6f0-5a86-4ecd-9d71-cf09508d66d2"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 118.11 175.26 270)
 		(unit 1)
@@ -7637,17 +8009,18 @@
 		)
 	)
 	(symbol
-		(lib_id "SFH_4545:SFH_4545")
-		(at 193.04 41.91 270)
+		(lib_name "TEFT4300_2")
+		(lib_id "TEFT4300:TEFT4300")
+		(at 54.61 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7cef0b85-e993-4424-8583-a572bf1e0833")
-		(property "Reference" "D9"
-			(at 198.12 39.4086 90)
+		(uuid "7cac908e-75cd-4c63-8791-e95ee5708344")
+		(property "Reference" "Q4"
+			(at 60.96 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7655,8 +8028,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SFH_4545"
-			(at 198.12 41.9486 90)
+		(property "Value" "TEFT4300"
+			(at 60.96 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7664,8 +8037,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 193.04 41.91 0)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 54.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7675,7 +8048,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 41.91 0)
+			(at 54.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7684,7 +8057,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 41.91 0)
+			(at 54.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7692,18 +8065,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "OSRAM Opto"
-			(at 193.04 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Infrared (IR) Emitter 950nm 1.5V 100mA 550mW/sr @ 100mA 10° Radial"
-			(at 193.04 41.91 0)
+		(property "MF" "Vishay Semiconductor"
+			(at 54.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7712,8 +8075,18 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
-			(at 193.04 41.91 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.10mm"
+			(at 54.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "Radial Vishay"
+			(at 54.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7723,7 +8096,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 193.04 41.91 0)
+			(at 54.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7732,8 +8105,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SFH%204545/Osram/view-part/?ref=eda"
-			(at 193.04 41.91 0)
+		(property "Package" "None"
+			(at 54.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7742,8 +8115,8 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 193.04 41.91 0)
+		(property "Check_prices" "https://www.snapeda.com/parts/TEFT4300/Vishay/view-part/?ref=eda"
+			(at 54.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7752,8 +8125,8 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "1.5"
-			(at 193.04 41.91 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TEFT4300/Vishay/view-part/?ref=snap"
+			(at 54.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7762,8 +8135,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SFH%204545/Osram/view-part/?ref=snap"
-			(at 193.04 41.91 0)
+		(property "MP" "TEFT4300"
+			(at 54.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7772,18 +8145,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "SFH 4545"
-			(at 193.04 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=78935&manufacturer=OSRAM Opto&part_name=SFH 4545&search_term=None"
-			(at 193.04 41.91 0)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=213585&manufacturer=Vishay Semiconductor&part_name=TEFT4300&search_term=None"
+			(at 54.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7793,7 +8156,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 193.04 41.91 0)
+			(at 54.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7802,8 +8165,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "OSRAM"
-			(at 193.04 41.91 0)
+		(property "Description_1" "Phototransistors 925nm Top View Radial, 3mm Dia (T-1)"
+			(at 54.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7812,16 +8175,16 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
-			(uuid "76041044-9e30-4858-b2d3-1094d577f7f3")
+		(pin "2"
+			(uuid "c849cc3c-c0f5-49b0-b15f-a4e6a526ea0d")
 		)
-		(pin "C"
-			(uuid "aada6ed3-7938-4610-947b-b4cec2b2a9f2")
+		(pin "1"
+			(uuid "8882e13b-f48e-4a87-8d11-86f0169b0477")
 		)
 		(instances
 			(project "HSM_Project"
 				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/aa30e6f0-5a86-4ecd-9d71-cf09508d66d2"
-					(reference "D9")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -7962,6 +8325,390 @@
 		)
 	)
 	(symbol
+		(lib_name "SFH_4545_2")
+		(lib_id "SFH_4545:SFH_4545")
+		(at 156.21 46.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a649ae5-72c5-4151-9ce0-178aedbe9fa3")
+		(property "Reference" "D7"
+			(at 161.29 44.4886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SFH_4545"
+			(at 161.29 47.0286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 173.99 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "OSRAM Opto"
+			(at 173.482 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Infrared (IR) Emitter 950nm 1.5V 100mA 550mW/sr @ 100mA 10° Radial"
+			(at 173.99 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SFH%204545/Osram/view-part/?ref=eda"
+			(at 174.498 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 173.99 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.5"
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SFH%204545/Osram/view-part/?ref=snap"
+			(at 173.482 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SFH 4545"
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=78935&manufacturer=OSRAM Opto&part_name=SFH 4545&search_term=None"
+			(at 175.006 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 172.212 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "OSRAM"
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5eb76d1e-4f1b-4540-b3f0-1de64e63a42b")
+		)
+		(pin "1"
+			(uuid "0d305ade-e43d-47e0-a6e9-b661fba54963")
+		)
+		(instances
+			(project "HSM_Project"
+				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/aa30e6f0-5a86-4ecd-9d71-cf09508d66d2"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SFH_4545_2")
+		(lib_id "SFH_4545:SFH_4545")
+		(at 232.41 48.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c741c8c-3b89-494c-903c-08e4c4600e90")
+		(property "Reference" "D9"
+			(at 237.49 45.7586 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SFH_4545"
+			(at 237.49 48.2986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 250.19 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "OSRAM Opto"
+			(at 249.682 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Infrared (IR) Emitter 950nm 1.5V 100mA 550mW/sr @ 100mA 10° Radial"
+			(at 250.19 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 232.41 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 232.41 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SFH%204545/Osram/view-part/?ref=eda"
+			(at 250.698 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 250.19 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.5"
+			(at 232.41 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SFH%204545/Osram/view-part/?ref=snap"
+			(at 249.682 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SFH 4545"
+			(at 232.41 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=78935&manufacturer=OSRAM Opto&part_name=SFH 4545&search_term=None"
+			(at 251.206 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 248.412 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "OSRAM"
+			(at 232.41 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b9d799ff-aedb-48d6-8a8f-434d1416c810")
+		)
+		(pin "1"
+			(uuid "8d5d8e16-340f-4604-a377-4b186222e5d6")
+		)
+		(instances
+			(project "HSM_Project"
+				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/aa30e6f0-5a86-4ecd-9d71-cf09508d66d2"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 68.58 58.42 270)
 		(unit 1)
@@ -8089,187 +8836,6 @@
 			(project "HSM_Project"
 				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/aa30e6f0-5a86-4ecd-9d71-cf09508d66d2"
 					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TEFT4300:TEFT4300")
-		(at 125.73 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9076c3e5-9d4b-4940-8ca6-7252e2c99a28")
-		(property "Reference" "Q7"
-			(at 132.08 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TEFT4300"
-			(at 132.08 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Semiconductor"
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.10mm"
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "Radial Vishay"
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TEFT4300/Vishay/view-part/?ref=eda"
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TEFT4300/Vishay/view-part/?ref=snap"
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TEFT4300"
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=213585&manufacturer=Vishay Semiconductor&part_name=TEFT4300&search_term=None"
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Phototransistors 925nm Top View Radial, 3mm Dia (T-1)"
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "E"
-			(uuid "b5e2ce73-2709-4da6-9efe-cae1879fe9a4")
-		)
-		(pin "C"
-			(uuid "71ae1d0e-6d2f-4a06-8fc9-d966d8e3e289")
-		)
-		(instances
-			(project "HSM_Project"
-				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/aa30e6f0-5a86-4ecd-9d71-cf09508d66d2"
-					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -8547,378 +9113,6 @@
 			(project "HSM_Project"
 				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/aa30e6f0-5a86-4ecd-9d71-cf09508d66d2"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SFH_4545:SFH_4545")
-		(at 156.21 46.99 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4fd8ddc-7aa1-499b-a0b4-7f5ab60823ac")
-		(property "Reference" "D8"
-			(at 161.29 44.4886 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SFH_4545"
-			(at 161.29 47.0286 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 156.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "OSRAM Opto"
-			(at 156.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Infrared (IR) Emitter 950nm 1.5V 100mA 550mW/sr @ 100mA 10° Radial"
-			(at 156.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 156.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 156.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SFH%204545/Osram/view-part/?ref=eda"
-			(at 156.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 156.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.5"
-			(at 156.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SFH%204545/Osram/view-part/?ref=snap"
-			(at 156.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SFH 4545"
-			(at 156.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=78935&manufacturer=OSRAM Opto&part_name=SFH 4545&search_term=None"
-			(at 156.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 156.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "OSRAM"
-			(at 156.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "352a967f-c173-4b7b-a695-8b83fd665c22")
-		)
-		(pin "C"
-			(uuid "9d8a34a6-05bd-4a77-bfa4-dba07d70a977")
-		)
-		(instances
-			(project "HSM_Project"
-				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/aa30e6f0-5a86-4ecd-9d71-cf09508d66d2"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TEFT4300:TEFT4300")
-		(at 78.74 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5393109-7cda-4d23-8dcf-75a0c4650906")
-		(property "Reference" "Q5"
-			(at 85.09 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TEFT4300"
-			(at 85.09 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Semiconductor"
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.10mm"
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "Radial Vishay"
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TEFT4300/Vishay/view-part/?ref=eda"
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TEFT4300/Vishay/view-part/?ref=snap"
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TEFT4300"
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=213585&manufacturer=Vishay Semiconductor&part_name=TEFT4300&search_term=None"
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Phototransistors 925nm Top View Radial, 3mm Dia (T-1)"
-			(at 78.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "E"
-			(uuid "fe0e38cd-c7ef-4d1b-8aee-404b5d55efa4")
-		)
-		(pin "C"
-			(uuid "da600a67-cfa3-4185-ad5f-4293625851de")
-		)
-		(instances
-			(project "HSM_Project"
-				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/aa30e6f0-5a86-4ecd-9d71-cf09508d66d2"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -9816,6 +10010,188 @@
 		)
 	)
 	(symbol
+		(lib_name "TEFT4300_2")
+		(lib_id "TEFT4300:TEFT4300")
+		(at 125.73 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0fa816f-b35e-4ad8-a90d-6c3aaafb0e6e")
+		(property "Reference" "Q7"
+			(at 132.08 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TEFT4300"
+			(at 132.08 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Vishay Semiconductor"
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.10mm"
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "Radial Vishay"
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TEFT4300/Vishay/view-part/?ref=eda"
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TEFT4300/Vishay/view-part/?ref=snap"
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TEFT4300"
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=213585&manufacturer=Vishay Semiconductor&part_name=TEFT4300&search_term=None"
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Phototransistors 925nm Top View Radial, 3mm Dia (T-1)"
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a9f99ea8-0ef5-4fe3-a54c-0408af8de58e")
+		)
+		(pin "1"
+			(uuid "6cdcf821-8609-48d7-b786-106f6d65679c")
+		)
+		(instances
+			(project "HSM_Project"
+				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/aa30e6f0-5a86-4ecd-9d71-cf09508d66d2"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSM_Symbols:VL530X")
 		(at 224.79 95.25 0)
 		(unit 1)
@@ -10305,198 +10681,18 @@
 		)
 	)
 	(symbol
-		(lib_id "TEFT4300:TEFT4300")
-		(at 152.4 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d14a8ff5-39a5-4cbd-9413-a3779a13c5c4")
-		(property "Reference" "Q13"
-			(at 158.75 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TEFT4300"
-			(at 158.75 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 152.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Semiconductor"
-			(at 152.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.10mm"
-			(at 152.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "Radial Vishay"
-			(at 152.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 152.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 152.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TEFT4300/Vishay/view-part/?ref=eda"
-			(at 152.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TEFT4300/Vishay/view-part/?ref=snap"
-			(at 152.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TEFT4300"
-			(at 152.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=213585&manufacturer=Vishay Semiconductor&part_name=TEFT4300&search_term=None"
-			(at 152.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 152.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Phototransistors 925nm Top View Radial, 3mm Dia (T-1)"
-			(at 152.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "E"
-			(uuid "9fb7d6e1-c988-4093-adbb-ac8079dbe8cc")
-		)
-		(pin "C"
-			(uuid "f5dfefa2-c3a0-44f0-be94-3d168b643e7e")
-		)
-		(instances
-			(project "HSM_Project"
-				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/aa30e6f0-5a86-4ecd-9d71-cf09508d66d2"
-					(reference "Q13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "SFH_4545_2")
 		(lib_id "SFH_4545:SFH_4545")
-		(at 232.41 48.26 270)
+		(at 119.38 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d257e534-e817-4f6d-89bb-ea8b6cae0517")
-		(property "Reference" "D10"
-			(at 237.49 45.7586 90)
+		(uuid "d2ded308-a6cb-4fb8-bbac-e2ee540b11b1")
+		(property "Reference" "D6"
+			(at 124.46 45.7586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10505,7 +10701,7 @@
 			)
 		)
 		(property "Value" "SFH_4545"
-			(at 237.49 48.2986 90)
+			(at 124.46 48.2986 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10514,7 +10710,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 232.41 48.26 0)
+			(at 137.16 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10524,7 +10720,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 48.26 0)
+			(at 119.38 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10533,7 +10729,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 232.41 48.26 0)
+			(at 119.38 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10542,7 +10738,7 @@
 			)
 		)
 		(property "MF" "OSRAM Opto"
-			(at 232.41 48.26 0)
+			(at 136.652 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10552,7 +10748,7 @@
 			)
 		)
 		(property "Description_1" "Infrared (IR) Emitter 950nm 1.5V 100mA 550mW/sr @ 100mA 10° Radial"
-			(at 232.41 48.26 0)
+			(at 137.16 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10562,7 +10758,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 232.41 48.26 0)
+			(at 119.38 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10572,7 +10768,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 232.41 48.26 0)
+			(at 119.38 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10582,7 +10778,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SFH%204545/Osram/view-part/?ref=eda"
-			(at 232.41 48.26 0)
+			(at 137.668 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10592,7 +10788,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 232.41 48.26 0)
+			(at 137.16 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10602,7 +10798,7 @@
 			)
 		)
 		(property "PARTREV" "1.5"
-			(at 232.41 48.26 0)
+			(at 119.38 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10612,7 +10808,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SFH%204545/Osram/view-part/?ref=snap"
-			(at 232.41 48.26 0)
+			(at 136.652 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10622,7 +10818,7 @@
 			)
 		)
 		(property "MP" "SFH 4545"
-			(at 232.41 48.26 0)
+			(at 119.38 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10632,7 +10828,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=78935&manufacturer=OSRAM Opto&part_name=SFH 4545&search_term=None"
-			(at 232.41 48.26 0)
+			(at 138.176 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10642,7 +10838,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 232.41 48.26 0)
+			(at 135.382 30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10652,7 +10848,7 @@
 			)
 		)
 		(property "MANUFACTURER" "OSRAM"
-			(at 232.41 48.26 0)
+			(at 119.38 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10661,16 +10857,16 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
-			(uuid "dd29b5d4-24f8-4811-b646-72748419c9d9")
+		(pin "2"
+			(uuid "8175699d-be35-4d9d-bc58-9cf14b89e9e7")
 		)
-		(pin "C"
-			(uuid "42db10dd-7013-4cbe-af5b-f12242f5554e")
+		(pin "1"
+			(uuid "8a79df5e-e49d-432f-a839-52053e9a6f21")
 		)
 		(instances
 			(project "HSM_Project"
 				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/aa30e6f0-5a86-4ecd-9d71-cf09508d66d2"
-					(reference "D10")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -11088,6 +11284,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SFH_4545_2")
 		(lib_id "SFH_4545:SFH_4545")
 		(at 40.64 48.26 270)
 		(unit 1)
@@ -11116,7 +11313,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 40.64 48.26 0)
+			(at 58.42 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11144,7 +11341,7 @@
 			)
 		)
 		(property "MF" "OSRAM Opto"
-			(at 40.64 48.26 0)
+			(at 57.912 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11154,7 +11351,7 @@
 			)
 		)
 		(property "Description_1" "Infrared (IR) Emitter 950nm 1.5V 100mA 550mW/sr @ 100mA 10° Radial"
-			(at 40.64 48.26 0)
+			(at 58.42 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11184,7 +11381,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SFH%204545/Osram/view-part/?ref=eda"
-			(at 40.64 48.26 0)
+			(at 58.928 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11194,7 +11391,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 40.64 48.26 0)
+			(at 58.42 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11214,7 +11411,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SFH%204545/Osram/view-part/?ref=snap"
-			(at 40.64 48.26 0)
+			(at 57.912 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11234,7 +11431,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=78935&manufacturer=OSRAM Opto&part_name=SFH 4545&search_term=None"
-			(at 40.64 48.26 0)
+			(at 59.436 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11244,7 +11441,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 40.64 48.26 0)
+			(at 56.642 30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11263,207 +11460,16 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "66411621-8ba3-4e8c-a011-36403633c49b")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "3444b04c-e655-46b7-b58e-7b974320125c")
 		)
 		(instances
 			(project ""
 				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/aa30e6f0-5a86-4ecd-9d71-cf09508d66d2"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SFH_4545:SFH_4545")
-		(at 81.28 48.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc4e7c8c-5963-47bf-a10c-3b5728352a15")
-		(property "Reference" "D6"
-			(at 86.36 45.7586 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SFH_4545"
-			(at 86.36 48.2986 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 81.28 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "OSRAM Opto"
-			(at 81.28 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Infrared (IR) Emitter 950nm 1.5V 100mA 550mW/sr @ 100mA 10° Radial"
-			(at 81.28 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 81.28 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 81.28 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SFH%204545/Osram/view-part/?ref=eda"
-			(at 81.28 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 81.28 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.5"
-			(at 81.28 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SFH%204545/Osram/view-part/?ref=snap"
-			(at 81.28 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SFH 4545"
-			(at 81.28 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=78935&manufacturer=OSRAM Opto&part_name=SFH 4545&search_term=None"
-			(at 81.28 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 81.28 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "OSRAM"
-			(at 81.28 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "c37869e3-2214-4c53-a15a-47602fd68267")
-		)
-		(pin "C"
-			(uuid "569d87b8-0779-42e8-921c-3e12ae12c3dc")
-		)
-		(instances
-			(project "HSM_Project"
-				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/aa30e6f0-5a86-4ecd-9d71-cf09508d66d2"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -12593,6 +12599,198 @@
 		)
 	)
 	(symbol
+		(lib_name "SFH_4545_2")
+		(lib_id "SFH_4545:SFH_4545")
+		(at 193.04 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6c9c3f4-3aa9-4971-b811-f9abf2680621")
+		(property "Reference" "D8"
+			(at 198.12 41.9486 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SFH_4545"
+			(at 198.12 44.4886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 210.82 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "OSRAM Opto"
+			(at 210.312 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Infrared (IR) Emitter 950nm 1.5V 100mA 550mW/sr @ 100mA 10° Radial"
+			(at 210.82 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 193.04 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 193.04 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SFH%204545/Osram/view-part/?ref=eda"
+			(at 211.328 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 210.82 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.5"
+			(at 193.04 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SFH%204545/Osram/view-part/?ref=snap"
+			(at 210.312 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SFH 4545"
+			(at 193.04 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=78935&manufacturer=OSRAM Opto&part_name=SFH 4545&search_term=None"
+			(at 211.836 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 209.042 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "OSRAM"
+			(at 193.04 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "def7f91d-0555-4cee-b119-a345a74036af")
+		)
+		(pin "1"
+			(uuid "6bc58086-5781-4f79-8b01-759e8d9c2197")
+		)
+		(instances
+			(project "HSM_Project"
+				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/aa30e6f0-5a86-4ecd-9d71-cf09508d66d2"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 142.24 146.05 0)
 		(unit 1)
@@ -12786,197 +12984,6 @@
 			(project "HSM_Project"
 				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/aa30e6f0-5a86-4ecd-9d71-cf09508d66d2"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SFH_4545:SFH_4545")
-		(at 119.38 48.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc0571fc-6d3f-48bc-b3b2-d36cd74ccca3")
-		(property "Reference" "D7"
-			(at 124.46 45.7586 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SFH_4545"
-			(at 124.46 48.2986 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 119.38 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "OSRAM Opto"
-			(at 119.38 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Infrared (IR) Emitter 950nm 1.5V 100mA 550mW/sr @ 100mA 10° Radial"
-			(at 119.38 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 119.38 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 119.38 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SFH%204545/Osram/view-part/?ref=eda"
-			(at 119.38 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 119.38 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.5"
-			(at 119.38 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SFH%204545/Osram/view-part/?ref=snap"
-			(at 119.38 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SFH 4545"
-			(at 119.38 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=78935&manufacturer=OSRAM Opto&part_name=SFH 4545&search_term=None"
-			(at 119.38 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 119.38 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "OSRAM"
-			(at 119.38 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "d5e51a17-f3ea-444e-af00-f550634180f2")
-		)
-		(pin "C"
-			(uuid "c224b084-dce2-4120-a8f7-a27332c37ba2")
-		)
-		(instances
-			(project "HSM_Project"
-				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/aa30e6f0-5a86-4ecd-9d71-cf09508d66d2"
-					(reference "D7")
 					(unit 1)
 				)
 			)
