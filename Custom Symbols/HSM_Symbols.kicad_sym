@@ -66,32 +66,14 @@
 			(pin input line
 				(at -11.43 5.08 0)
 				(length 2.54)
-				(name "PS0"
+				(name "ADD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -11.43 0 0)
-				(length 2.54)
-				(name "PS1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -100,7 +82,7 @@
 				)
 			)
 			(pin output line
-				(at -11.43 -5.08 0)
+				(at -11.43 1.27 0)
 				(length 2.54)
 				(name "INT"
 					(effects
@@ -118,16 +100,34 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -10.16 0)
+				(at -11.43 -2.54 0)
 				(length 2.54)
-				(name "ADD"
+				(name "PS1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 -6.35 0)
+				(length 2.54)
+				(name "PS0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
