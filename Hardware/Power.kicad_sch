@@ -2258,6 +2258,12 @@
 		(uuid "1bceced2-6b43-434b-b42a-d18e9d1a57c4")
 	)
 	(junction
+		(at 58.42 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a7c6a13-53bc-455d-9842-658e887281f8")
+	)
+	(junction
 		(at 196.85 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2286,8 +2292,8 @@
 		(uuid "aa08c288-5638-46c0-a1e9-82f82a4371b3")
 	)
 	(no_connect
-		(at 55.88 110.49)
-		(uuid "db73c815-02d3-4d19-82da-9da94a91aeb0")
+		(at 52.07 115.57)
+		(uuid "b121d8d8-1a5b-4346-982f-1a67a508c9e2")
 	)
 	(wire
 		(pts
@@ -2441,16 +2447,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 115.57) (xy 59.69 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fb4dad5-c5b4-4d9f-b24f-b0ddf0905d65")
-	)
-	(wire
-		(pts
 			(xy 218.44 115.57) (xy 218.44 116.84)
 		)
 		(stroke
@@ -2521,16 +2517,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 113.03) (xy 45.72 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57e8b426-0f5e-4c74-af55-76480eab2c8b")
-	)
-	(wire
-		(pts
 			(xy 160.02 111.76) (xy 163.83 111.76)
 		)
 		(stroke
@@ -2551,6 +2537,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 110.49) (xy 55.88 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "706f0a8f-03e8-4c44-8a6a-97a7bbce571e")
+	)
+	(wire
+		(pts
 			(xy 59.69 72.39) (xy 62.23 72.39)
 		)
 		(stroke
@@ -2568,6 +2564,16 @@
 			(type default)
 		)
 		(uuid "81bfa2ca-3eed-4aef-9014-4740045a8ee2")
+	)
+	(wire
+		(pts
+			(xy 58.42 113.03) (xy 67.31 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "824fac2f-623f-40f5-9e89-ec97c7572e6c")
 	)
 	(wire
 		(pts
@@ -2638,6 +2644,16 @@
 			(type default)
 		)
 		(uuid "a3f31b3c-b3d0-4def-a769-afb5e1660000")
+	)
+	(wire
+		(pts
+			(xy 52.07 110.49) (xy 55.88 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5587bda-25f6-4b2f-88d5-031d4668789a")
 	)
 	(wire
 		(pts
@@ -2781,6 +2797,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 113.03) (xy 41.91 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d38969f8-1d46-45b7-8b06-b22764ba2690")
+	)
+	(wire
+		(pts
 			(xy 175.26 73.66) (xy 187.96 73.66)
 		)
 		(stroke
@@ -2791,16 +2817,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 115.57) (xy 59.69 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8ed56fc-d2d8-4d1f-86ac-0ab9ceaa9897")
-	)
-	(wire
-		(pts
 			(xy 119.38 72.39) (xy 121.92 72.39)
 		)
 		(stroke
@@ -2808,6 +2824,16 @@
 			(type default)
 		)
 		(uuid "d96271e3-b273-44f5-a0e1-e6cb3b247eb8")
+	)
+	(wire
+		(pts
+			(xy 55.88 113.03) (xy 58.42 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db98adbc-bb5c-4801-b918-60854398a579")
 	)
 	(wire
 		(pts
@@ -2878,16 +2904,6 @@
 			(type default)
 		)
 		(uuid "f1c36aa9-5855-4905-8794-c7ee28f9376d")
-	)
-	(wire
-		(pts
-			(xy 59.69 113.03) (xy 67.31 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f32a98a5-7f75-4c74-8af1-afc28a6acecb")
 	)
 	(wire
 		(pts
@@ -3107,7 +3123,7 @@
 	)
 	(hierarchical_label "VIN"
 		(shape input)
-		(at 40.64 113.03 180)
+		(at 39.37 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4007,76 +4023,6 @@
 			(project "HSM_Project"
 				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/ac18e862-6ffc-44ea-b67e-4cb824815cfe"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 50.8 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c4a3180-1b30-48c0-9e36-2999dc26bf4f")
-		(property "Reference" "SW1"
-			(at 42.926 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 42.926 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN"
-			(at 50.8 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 50.8 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6d790ffc-35f7-401a-9df2-54eea10a876f")
-		)
-		(pin "3"
-			(uuid "41b63d2b-b919-433d-8b97-ff5db921d5de")
-		)
-		(pin "1"
-			(uuid "9c658422-8a61-4256-a3d4-966d8dd27079")
-		)
-		(instances
-			(project "HSM_Project"
-				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/ac18e862-6ffc-44ea-b67e-4cb824815cfe"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -5020,6 +4966,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 46.99 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdb0aa12-aa00-46ea-bdfd-7abd91e94d99")
+		(property "Reference" "SW1"
+			(at 46.99 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 46.99 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN"
+			(at 46.99 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 46.99 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df4f7957-7d88-4be4-868f-62338b8451e4")
+		)
+		(pin "1"
+			(uuid "e760325e-4263-47ab-ba9d-084e11b9f3d3")
+		)
+		(pin "3"
+			(uuid "b8035d8a-dc79-4a79-856f-0495fba8f6fe")
+		)
+		(instances
+			(project ""
+				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/ac18e862-6ffc-44ea-b67e-4cb824815cfe"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSM_Symbols:DRV8833_Breakout")
 		(at 81.28 110.49 0)
 		(unit 1)
@@ -5112,6 +5129,71 @@
 			(project ""
 				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/ac18e862-6ffc-44ea-b67e-4cb824815cfe"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 58.42 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd39ef4f-2252-4d50-95a2-e4a189a8759b")
+		(property "Reference" "#FLG01"
+			(at 58.42 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 60.198 118.364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 58.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7630d549-588b-4731-86a8-3e184334ad80")
+		)
+		(instances
+			(project "HSM_Project"
+				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/ac18e862-6ffc-44ea-b67e-4cb824815cfe"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)

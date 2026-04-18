@@ -90,13 +90,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 62.23) (xy 198.12 69.85)
+			(xy 220.98 99.06) (xy 205.74 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17644ef9-cac4-4514-8319-83514151852f")
+		(uuid "170e9cda-7b8e-4490-9564-dee4ac5e71e3")
 	)
 	(wire
 		(pts
@@ -127,6 +127,16 @@
 			(type default)
 		)
 		(uuid "1e1c8eee-a212-476f-b19e-02382a987243")
+	)
+	(wire
+		(pts
+			(xy 204.47 31.75) (xy 220.98 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e63b645-f0d5-433b-befa-8c71af0b254b")
 	)
 	(wire
 		(pts
@@ -197,6 +207,26 @@
 			(type default)
 		)
 		(uuid "4476ea5f-60cc-4581-bf42-caf7744eb6eb")
+	)
+	(wire
+		(pts
+			(xy 217.17 95.25) (xy 217.17 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "465afcb7-c18b-4e14-97a1-85a476ef030d")
+	)
+	(wire
+		(pts
+			(xy 217.17 35.56) (xy 204.47 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "536f0c1f-4707-4e8c-a978-d16080cef623")
 	)
 	(wire
 		(pts
@@ -380,6 +410,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 31.75) (xy 220.98 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adbe1d23-c827-4591-8db0-317d407cc438")
+	)
+	(wire
+		(pts
 			(xy 180.34 156.21) (xy 180.34 135.89)
 		)
 		(stroke
@@ -407,6 +447,16 @@
 			(type default)
 		)
 		(uuid "baede631-c491-49e6-abe0-ce1d34e3696c")
+	)
+	(wire
+		(pts
+			(xy 205.74 95.25) (xy 217.17 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be05d771-c8d7-4d0c-9370-145bdac90ef4")
 	)
 	(wire
 		(pts
@@ -912,16 +962,6 @@
 				(justify right)
 			)
 		)
-		(pin "IMU_INT" input
-			(at 198.12 69.85 90)
-			(uuid "0ea17d70-5222-4bec-824f-ed686258ff69")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "XSHUT_TOF5" output
 			(at 190.5 69.85 90)
 			(uuid "cd44bc6f-9a69-495c-9a89-d7bb90c99935")
@@ -975,6 +1015,26 @@
 		(pin "XSHUT_TOF6" output
 			(at 193.04 69.85 90)
 			(uuid "bc464c49-c436-4335-a368-7fcf7421db96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL1" bidirectional
+			(at 205.74 95.25 0)
+			(uuid "48115581-ba88-4832-83c3-291199b404ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA1" bidirectional
+			(at 205.74 99.06 0)
+			(uuid "61a8492e-615c-4933-8fdd-7e3d52e27d96")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1234,14 +1294,24 @@
 				(justify left)
 			)
 		)
-		(pin "IMU_INT" output
-			(at 198.12 62.23 270)
-			(uuid "e768835a-d7b4-4828-8bf7-3321050d2e52")
+		(pin "SDA1" bidirectional
+			(at 204.47 31.75 0)
+			(uuid "db6f1edc-c238-4103-80b0-bf90546159e9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+		(pin "SCL1" bidirectional
+			(at 204.47 35.56 0)
+			(uuid "6621d3b7-b1b0-4fde-a709-a80e502cd48c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
