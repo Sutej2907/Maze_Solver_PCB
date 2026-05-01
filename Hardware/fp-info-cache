@@ -1,4 +1,4 @@
-27250931445832680
+27256269280315910
 AS5600-ASOT
 SOIC127P600X175-8N
 <b>SOIC-8</b><br>
@@ -71834,6 +71834,13 @@ BNO055
 10
 10
 Micromouse_Footprints
+BNO085
+
+
+0
+16
+16
+Micromouse_Footprints
 DRV8833
 
 
@@ -71854,6 +71861,13 @@ Power 5V 3A
 0
 8
 8
+Micromouse_Footprints
+Untitled
+
+
+0
+0
+0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -100862,6 +100876,13 @@ Teensy 3.5/4.1 Footprint Extended<br><a href="https://www.pjrc.com/store/teensy3
 0
 50
 50
+TEFT4300 (2)
+XDCR_TEFT4300
+
+
+0
+2
+2
 TS09_TACTILE_SWITCH
 SW_TS09-63-25-R-260-SMT-TR
 
