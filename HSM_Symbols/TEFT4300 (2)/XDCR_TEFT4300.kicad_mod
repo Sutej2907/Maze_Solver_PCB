@@ -135,4 +135,15 @@
 		(uuid "fb9fc6aa-7ccc-4945-82e8-9b8b35627bc6")
 	)
 	(embedded_fonts no)
+	(model "C:/Users/Sutej/Documents/KiCad projects/HSM_Project/HSM_Symbols/TEFT4300 (2)/TEFT4300.step"
+		(offset
+			(xyz 0 0 -0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

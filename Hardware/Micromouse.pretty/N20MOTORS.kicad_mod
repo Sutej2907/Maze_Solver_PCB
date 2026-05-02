@@ -1,0 +1,141 @@
+(footprint "N20MOTORS"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6f645517-04a4-483e-8756-540081b5e95e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "N20MOTORS"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d0be2ba2-e4b3-43bd-8675-2aa3a59f1644")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8ae701f-6381-4a0b-9630-d81212d3fd59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29900ba2-7cd2-4d60-9c6c-865084d00dd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -40.635 -5.07)
+		(end -15.625 7.92)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "190ce2bb-6760-42a1-a878-039ae69bbbc1")
+	)
+	(fp_rect
+		(start 12.905 -5.08)
+		(end 37.895 7.92)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f2bccb9f-b869-463b-b874-8fb5b78e10c8")
+	)
+	(fp_text user "N20-MOTORS"
+		(at -32.985 1.96 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "87314863-7eb4-4986-be06-fd1ab40de427")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "N20-MOTORS"
+		(at 20.705 2.05 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6cf7dfbe-9bb9-46bd-95d8-22bc335357dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c41c75ff-d4e5-4433-b334-b72fd19fc081")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Sutej/Documents/n20-12v-micro-metal-gear-motor-with-encoder-1.snapshot.1/N20 Mini Micro Metall Gear Motor.step"
+		(offset
+			(xyz 33.5 -1.5 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "C:/Users/Sutej/Documents/n20-12v-micro-metal-gear-motor-with-encoder-1.snapshot.1/N20 Mini Micro Metall Gear Motor.step"
+		(offset
+			(xyz -36.5 -1.5 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

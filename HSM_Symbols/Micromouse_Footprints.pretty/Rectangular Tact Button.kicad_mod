@@ -1,0 +1,97 @@
+(footprint "Rectangular Tact Button"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "SW**"
+		(at 0.41 -2.63 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a60a4103-78a2-4f3a-bc1a-33967864bf61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Rectangular Tact Button"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "30c9d4cf-df81-47c5-a792-8c2719a0ba26")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd831593-4e3c-4659-8fca-18828d6d0bc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aacda143-8423-4689-81f3-2d18aae785fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.89 -1.85)
+		(end 2.88 1.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "48b9a736-863e-4c40-bb48-50240811c1ae")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a391d4bb-0d8c-4a09-9561-062f7c7c882d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.25 0)
+		(size 2.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "126b0238-9fa7-45fb-88ea-926ece8db05c")
+	)
+	(pad "2" smd rect
+		(at 4.25 0)
+		(size 2.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "215c6da0-9c3e-4009-b38e-a70c0def7d56")
+	)
+	(embedded_fonts no)
+)

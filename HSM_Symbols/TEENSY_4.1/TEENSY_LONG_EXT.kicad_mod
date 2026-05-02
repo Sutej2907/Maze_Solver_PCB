@@ -132,26 +132,6 @@
 		(uuid "86543074-ce20-4b85-9415-4f25d802a42e")
 	)
 	(fp_line
-		(start 8.89 -46.99)
-		(end 8.89 -44.45)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "2d3b6535-178b-4754-9734-12659cb877c8")
-	)
-	(fp_line
-		(start 8.89 -44.45)
-		(end 13.97 -44.45)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "3b339e18-dc3f-405b-a4ad-e6b39baba7e3")
-	)
-	(fp_line
 		(start 11.43 -3.81)
 		(end 3.81 -3.81)
 		(stroke
@@ -200,16 +180,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "53808127-302c-4bde-a7a1-0990d1ed1357")
-	)
-	(fp_line
-		(start 13.97 -46.99)
-		(end 8.89 -46.99)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "fe1fed28-2312-4e28-aa83-076b7a8d743f")
 	)
 	(fp_line
 		(start 13.97 -46.99)
@@ -285,18 +255,6 @@
 	)
 	(fp_poly
 		(pts
-			(xy 8.382 -47.498) (xy 13.7 -47.51) (xy 13.7 -43.93) (xy 8.382 -43.942)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill yes)
-		(layer "B.CrtYd")
-		(uuid "94ddaf69-0209-483b-9689-21d1eea65c56")
-	)
-	(fp_poly
-		(pts
 			(xy 13.716 -60.198) (xy 16.764 -60.198) (xy 16.764 1.778) (xy 13.716 1.778)
 		)
 		(stroke
@@ -318,18 +276,6 @@
 		(fill yes)
 		(layer "F.CrtYd")
 		(uuid "69fe6e78-b548-4262-95fe-97fe4c594185")
-	)
-	(fp_poly
-		(pts
-			(xy 8.382 -47.498) (xy 13.7 -47.508) (xy 13.7 -43.94) (xy 8.382 -43.942)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.CrtYd")
-		(uuid "77fc5c99-2525-4acf-8917-379e77c6d998")
 	)
 	(fp_poly
 		(pts
@@ -371,15 +317,6 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "1b08fa93-d6c5-4f7b-ab9b-99da908d1fae")
-	)
-	(pad "3V3@3" thru_hole circle
-		(at 10.16 -45.72)
-		(size 1.524 1.524)
-		(drill 1.016)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "0465973d-fb42-462f-b28a-49e433f37b5e")
 	)
 	(pad "AGND/GND" thru_hole circle
 		(at 0 -2.54)
@@ -786,15 +723,6 @@
 		(solder_mask_margin 0.102)
 		(uuid "a9024041-857a-4233-be94-aa3a68ba521c")
 	)
-	(pad "VBAT" thru_hole circle
-		(at 12.7 -45.72)
-		(size 1.524 1.524)
-		(drill 1.016)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "0cad8c00-fc68-4b65-a2d0-93f67262472d")
-	)
 	(pad "VIN" thru_hole circle
 		(at 0 0)
 		(size 1.524 1.524)
@@ -805,4 +733,37 @@
 		(uuid "c9bd0fd2-2896-460b-bc3d-0bf1522edcf7")
 	)
 	(embedded_fonts no)
+	(model "C:/Users/Sutej/Documents/KiCad projects/HSM_Project/HSM_Symbols/TEENSY_4.1/Teensy 4.1--3DModel-STEP-269445.STEP"
+		(offset
+			(xyz 8.1 29 8.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x24_P2.54mm_Vertical.step"
+		(offset
+			(xyz 0 58.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x24_P2.54mm_Vertical.step"
+		(offset
+			(xyz 15.5 58.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
