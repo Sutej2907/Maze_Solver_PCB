@@ -7,7 +7,7 @@
 		(at 0.41 -2.63 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "6266e6eb-fbc1-43a4-8447-395a28d7b62e")
+		(uuid "daa1faa7-b122-464b-be8f-89dc2e8cb408")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "7bbfd496-6345-41d8-a956-b70f3fbc7958")
+		(uuid "d8324231-1fc3-4699-9f15-4995a9d6d6fe")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f0445b24-8cf7-4ae2-9735-0268cf3c9e0b")
+		(uuid "b78a9ef0-7a62-48ee-b6e9-be61407c380f")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fb31dacf-f91a-401e-955d-3de0ea933d96")
+		(uuid "56714d3d-7b4c-4758-a567-173dbf44cdcf")
 		(effects
 			(font
 				(size 1 1)
@@ -56,21 +56,21 @@
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
-		(start -2.89 -1.85)
-		(end 2.88 1.85)
+		(start -2.7 -1.85)
+		(end 2.7 1.85)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.15)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "48b9a736-863e-4c40-bb48-50240811c1ae")
+		(uuid "d760f06d-76e5-4d77-b1c8-4e07e424da8e")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "a391d4bb-0d8c-4a09-9561-062f7c7c882d")
+		(uuid "ca97accc-db00-4c62-8a1f-7243a04976b2")
 		(effects
 			(font
 				(size 1 1)
@@ -84,7 +84,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.2)
 		(thermal_bridge_angle 45)
-		(uuid "126b0238-9fa7-45fb-88ea-926ece8db05c")
+		(uuid "48a40eb4-6330-48af-97cb-c02154af749f")
 	)
 	(pad "2" smd rect
 		(at 4.25 0)
@@ -92,7 +92,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.2)
 		(thermal_bridge_angle 45)
-		(uuid "215c6da0-9c3e-4009-b38e-a70c0def7d56")
+		(uuid "2c87b49e-68fe-4cbd-a1db-4d4b15f01bd2")
 	)
 	(embedded_fonts no)
 	(model "C:/Users/Sutej/Documents/KiCad projects/HSM_Project/HSM_Symbols/TEENSY_4.1/G73 button.STEP"

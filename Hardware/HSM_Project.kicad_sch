@@ -124,16 +124,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 113.03) (xy 111.76 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26c601ce-8bf7-4bfc-85c2-b011070eb78c")
-	)
-	(wire
-		(pts
 			(xy 172.72 62.23) (xy 172.72 69.85)
 		)
 		(stroke
@@ -394,16 +384,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 142.24) (xy 168.91 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baede631-c491-49e6-abe0-ce1d34e3696c")
-	)
-	(wire
-		(pts
 			(xy 205.74 95.25) (xy 217.17 95.25)
 		)
 		(stroke
@@ -441,16 +421,6 @@
 			(type default)
 		)
 		(uuid "ccd868bb-2173-4e1d-87db-db0ba6e8e84b")
-	)
-	(wire
-		(pts
-			(xy 168.91 142.24) (xy 168.91 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cda1a819-2342-473b-a9f8-31176b797988")
 	)
 	(wire
 		(pts
@@ -877,16 +847,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "FAULT" input
-			(at 168.91 135.89 270)
-			(uuid "0f988f58-a768-4ee0-96a2-3b5130234229")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "EMIITER_FRONT_2" output
@@ -1354,16 +1314,6 @@
 		(pin "M2_INPUT2" input
 			(at 96.52 113.03 270)
 			(uuid "f3b47883-6784-4c3a-82cc-59d95218b130")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "FAULT" output
-			(at 111.76 113.03 270)
-			(uuid "75767200-9a25-48ce-8d34-a0686df4e1e5")
 			(effects
 				(font
 					(size 1.27 1.27)

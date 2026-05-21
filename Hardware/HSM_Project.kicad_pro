@@ -60,7 +60,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|177640000|128090000|0f8182ae-bf2f-461f-92e2-42ba628e0369|00000000-0000-0000-0000-000000000000",
+          "Changed silkscreen for led tht 3 mm"
+        ]
+      ],
       "meta": {
         "version": 2
       },

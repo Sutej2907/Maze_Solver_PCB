@@ -163,6 +163,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2378,6 +2543,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 195.58 120.65)
@@ -2566,6 +2846,12 @@
 		(uuid "f48228d3-e950-4d0f-a24e-d33c8c3d3605")
 	)
 	(junction
+		(at 92.71 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "098741d4-1425-4d27-80c4-3440706a8e17")
+	)
+	(junction
 		(at 229.87 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2660,10 +2946,6 @@
 		(uuid "1687e20d-280e-4f16-98dc-d02c40abfee3")
 	)
 	(no_connect
-		(at 88.9 95.25)
-		(uuid "60accef7-7297-4de3-81d8-75e7743433a1")
-	)
-	(no_connect
 		(at 149.86 59.69)
 		(uuid "a1254425-a9ae-41a6-967e-47ac32be8eac")
 	)
@@ -2743,7 +3025,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 92.71) (xy 88.9 92.71)
+			(xy 88.9 92.71) (xy 91.44 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2873,6 +3155,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 110.49) (xy 88.9 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b05bf14-3db3-4507-ba4b-3416a4038485")
+	)
+	(wire
+		(pts
 			(xy 219.71 90.17) (xy 219.71 93.98)
 		)
 		(stroke
@@ -2883,23 +3175,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 59.69) (xy 91.44 59.69)
+			(xy 88.9 59.69) (xy 92.71 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5254954b-3225-4690-ace8-fed4b52b7fe4")
-	)
-	(wire
-		(pts
-			(xy 91.44 57.15) (xy 91.44 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "582103d7-05a6-44e6-a73d-aed77e0513d0")
 	)
 	(wire
 		(pts
@@ -2920,16 +3202,6 @@
 			(type default)
 		)
 		(uuid "5c948643-7033-4f9d-b787-956c1f07e649")
-	)
-	(wire
-		(pts
-			(xy 91.44 93.98) (xy 90.17 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66035f60-b0cc-49c4-8c6b-6b7f52c57959")
 	)
 	(wire
 		(pts
@@ -3073,6 +3345,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 57.15) (xy 92.71 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "924306eb-d4ae-4cee-bd50-f00d9c508525")
+	)
+	(wire
+		(pts
 			(xy 129.54 140.97) (xy 129.54 142.24)
 		)
 		(stroke
@@ -3083,6 +3365,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 54.61) (xy 92.71 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a11383c6-250f-4b5d-82c0-0da80fc50c20")
+	)
+	(wire
+		(pts
 			(xy 129.54 142.24) (xy 124.46 142.24)
 		)
 		(stroke
@@ -3090,16 +3382,6 @@
 			(type default)
 		)
 		(uuid "a5c29f08-907f-48ca-b025-57748907e4f7")
-	)
-	(wire
-		(pts
-			(xy 90.17 93.98) (xy 90.17 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac296c0e-03c9-4def-9974-5d6d9fa96bca")
 	)
 	(wire
 		(pts
@@ -3230,6 +3512,16 @@
 			(type default)
 		)
 		(uuid "d2249c4e-227c-4c55-8e14-3c79f3603a58")
+	)
+	(wire
+		(pts
+			(xy 88.9 95.25) (xy 92.71 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3228fc0-f24e-43d4-a163-8f67de5860d3")
 	)
 	(wire
 		(pts
@@ -3381,6 +3673,16 @@
 		)
 		(uuid "fcf869b4-a319-4604-abbf-46847e2955bf")
 	)
+	(wire
+		(pts
+			(xy 92.71 45.72) (xy 92.71 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd66c716-d232-430a-bd99-c99eace27bfb")
+	)
 	(label "BT_RX"
 		(at 156.21 100.33 0)
 		(effects
@@ -3422,7 +3724,7 @@
 		(uuid "25fb7da1-a176-41c5-ba2c-12221081692e")
 	)
 	(label "ALGO_CONTROL"
-		(at 91.44 93.98 0)
+		(at 91.44 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3521,6 +3823,54 @@
 		)
 		(uuid "fe4e1271-c3df-4fb9-9ef7-0e8c81fd30bf")
 	)
+	(global_label "PWMB"
+		(shape input)
+		(at 92.71 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18ba4282-27a7-4acb-a10e-c541d8eb83db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.138 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "PWMA"
+		(shape input)
+		(at 93.98 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a5355b2-2046-48e4-89eb-8cded8a63f36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.2266 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "VBAT"
 		(shape input)
 		(at 173.99 53.34 180)
@@ -3599,17 +3949,6 @@
 			(justify right)
 		)
 		(uuid "3588a1b0-25ce-43ec-bbee-753744879a06")
-	)
-	(hierarchical_label "FAULT"
-		(shape input)
-		(at 88.9 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3ad6375a-7eff-479b-8927-a3f3f48aab91")
 	)
 	(hierarchical_label "XSHUT_TOF2"
 		(shape output)
@@ -4747,6 +5086,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 92.71 57.15 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56e958d5-0e25-46ab-85a4-42640c36b951")
+		(property "Reference" "#FLG01"
+			(at 94.615 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 96.52 57.1499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 92.71 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0445ae4-a21b-45d1-8588-9cb700d7a5eb")
+		)
+		(instances
+			(project "HSM_Project"
+				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/065986a2-ca92-4064-aa1f-d48692b7b6d2"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 199.39 60.96 0)
 		(unit 1)
@@ -5181,7 +5599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 130.81 61.468 90)
 			(hide yes)
 			(show_name no)
@@ -5344,7 +5762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 130.5052 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -6828,7 +7246,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 91.44 57.15 0)
+		(at 92.71 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6839,7 +7257,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4773171-6551-4817-a380-d9dcae3cbe58")
 		(property "Reference" "#PWR050"
-			(at 91.44 60.96 0)
+			(at 92.71 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6850,7 +7268,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 91.44 52.07 0)
+			(at 92.71 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6860,7 +7278,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 57.15 0)
+			(at 92.71 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6871,7 +7289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 57.15 0)
+			(at 92.71 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6882,7 +7300,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 91.44 57.15 0)
+			(at 92.71 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7183,7 +7601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 154.6352 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -7634,6 +8052,89 @@
 			(project "HSM_Project"
 				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/065986a2-ca92-4064-aa1f-d48692b7b6d2"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 92.71 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdf2fdc0-c5a5-4aee-acf7-68e9d4eb74c9")
+		(property "Reference" "F3"
+			(at 95.25 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Polyfuse"
+			(at 95.25 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+			(at 93.98 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 92.71 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ccbe7b3-c6ff-4ccf-9c61-2eb4b0b51136")
+		)
+		(pin "2"
+			(uuid "497ad077-9385-4350-bdf8-b3907cce6bab")
+		)
+		(instances
+			(project "HSM_Project"
+				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/065986a2-ca92-4064-aa1f-d48692b7b6d2"
+					(reference "F3")
 					(unit 1)
 				)
 			)
