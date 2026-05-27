@@ -1,12 +1,12 @@
 (footprint "XDCR_TEFT4300"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -3.175 0)
 		(layer "F.SilkS")
-		(uuid "cca56841-5dc8-4d60-8efc-03adcfb73ca1")
+		(uuid "9f03e6ac-bc3f-4564-b8c2-78d5c721b81a")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" "XDCR_TEFT4300"
 		(at 5.08 3.175 0)
 		(layer "F.Fab")
-		(uuid "c79ad345-5904-439f-8804-655d52d105c2")
+		(uuid "ce25d062-f4e9-4a39-9619-409922c300d3")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4e6e7efd-29d6-4efb-a6c1-843c8a79ac9b")
+		(uuid "d2261521-4e9e-43d9-a7cd-7d2de155c315")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3745482c-8c1b-41bf-8078-4f8a712231c6")
+		(uuid "d15d3de7-4642-46ad-b37f-9bfc84ab8d5f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50,6 +50,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_arc
 		(start -1.55 -1.310001)
 		(mid 0 -2.032778)
@@ -59,7 +60,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f535eeca-be4e-46ce-b1c6-d3b6485a2bd7")
+		(uuid "d9fa4934-763f-41db-933d-c3dcdc9f6b85")
 	)
 	(fp_arc
 		(start 1.55 1.310001)
@@ -70,18 +71,18 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f9051851-157e-4688-a21e-201af8898bcf")
+		(uuid "cd105799-b902-4bab-9e0d-53b3706145a3")
 	)
 	(fp_circle
-		(center -2.7 0)
-		(end -2.6 0)
+		(center -2.32 1.12)
+		(end -2.22 1.12)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "bab2ff59-23aa-44ce-b71b-4e68088d10d3")
+		(uuid "fe90f09e-f522-459c-b37c-b5988319a183")
 	)
 	(fp_circle
 		(center 0 0)
@@ -92,18 +93,18 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "dd595386-1ef1-42d2-b3a2-a38ea3b2e893")
+		(uuid "c4196f5d-0df8-46b9-b2c1-61c5fdcfb59a")
 	)
 	(fp_circle
-		(center -2.7 0)
-		(end -2.6 0)
+		(center -2.32 1.12)
+		(end -2.22 1.12)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "99af5f7f-bf8e-4568-bf7a-b9002fd7bfa2")
+		(uuid "e1b06037-9fea-4ea7-ae3a-31bb39a86cdf")
 	)
 	(fp_circle
 		(center 0 0)
@@ -114,7 +115,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "3a2d56aa-2e2d-4c1a-8182-445dccc191d0")
+		(uuid "866c1224-740a-41b2-86a9-902883286515")
 	)
 	(pad "1" thru_hole rect
 		(at -1.27 0)
@@ -123,7 +124,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "f178080a-a0bc-46c6-9bf5-28a0186c0278")
+		(uuid "8dbf7880-7b66-4e6f-aa50-cc2ecd3b3ba1")
 	)
 	(pad "2" thru_hole circle
 		(at 1.27 0)
@@ -132,7 +133,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "fb9fc6aa-7ccc-4945-82e8-9b8b35627bc6")
+		(uuid "8d6b13b1-362e-49d4-a9f9-626a33df03fd")
 	)
 	(embedded_fonts no)
 	(model "C:/Users/Sutej/Documents/KiCad projects/HSM_Project/HSM_Symbols/TEFT4300 (2)/TEFT4300.step"
