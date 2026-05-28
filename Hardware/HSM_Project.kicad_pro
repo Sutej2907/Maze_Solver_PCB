@@ -565,7 +565,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../Gerber/",
+      "plot": "../HSM_Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
