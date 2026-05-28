@@ -2946,12 +2946,16 @@
 		(uuid "1687e20d-280e-4f16-98dc-d02c40abfee3")
 	)
 	(no_connect
+		(at 156.21 92.71)
+		(uuid "660429a2-f16f-4c04-b4e9-06935f751702")
+	)
+	(no_connect
 		(at 149.86 59.69)
 		(uuid "a1254425-a9ae-41a6-967e-47ac32be8eac")
 	)
 	(no_connect
-		(at 156.21 105.41)
-		(uuid "db53305d-0014-4fb6-949b-3577ccd89f69")
+		(at 90.17 64.77)
+		(uuid "a8c42f0e-816f-42eb-ad80-42ac3bb06c79")
 	)
 	(wire
 		(pts
@@ -3753,7 +3757,7 @@
 		)
 		(uuid "6515e475-3979-4ead-8fc6-0e9faee249b7")
 	)
-	(label "AT_COMMAND_LINE"
+	(label "STATE_HC-05"
 		(at 88.9 118.11 0)
 		(effects
 			(font
@@ -3793,15 +3797,15 @@
 		)
 		(uuid "c0081c80-154c-402e-8254-9e43d18ffcaf")
 	)
-	(label "AT_COMMAND_LINE"
-		(at 156.21 92.71 0)
+	(label "STATE_HC-05"
+		(at 156.21 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c5d16243-6bbb-4ed7-93cf-f3f636749ece")
+		(uuid "dae163a5-b34f-4cc4-971b-b6e72613e199")
 	)
 	(label "BATTERY_LED"
 		(at 88.9 107.95 0)
@@ -4758,6 +4762,84 @@
 			(project "HSM_Project"
 				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/065986a2-ca92-4064-aa1f-d48692b7b6d2"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 142.24 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a659b69-e957-4529-98f0-aa74334ed28b")
+		(property "Reference" "#PWR092"
+			(at 142.24 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 142.24 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 142.24 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e791346-3241-4963-a84a-983d0a27bc29")
+		)
+		(instances
+			(project "HSM_Project"
+				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/065986a2-ca92-4064-aa1f-d48692b7b6d2"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -6602,85 +6684,6 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 90.17 64.77 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c98ee63e-8d06-4fc9-b037-87b27b1d8576")
-		(property "Reference" "#PWR02"
-			(at 86.36 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 93.98 64.7699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 90.17 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5dc4d2b2-054b-48b2-bef7-7d6dc7e6fcef")
-		)
-		(instances
-			(project "HSM_Project"
-				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/065986a2-ca92-4064-aa1f-d48692b7b6d2"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
 		(at 219.71 90.17 0)
 		(unit 1)
 		(body_style 1)
@@ -6751,83 +6754,6 @@
 			(project "HSM_Project"
 				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/065986a2-ca92-4064-aa1f-d48692b7b6d2"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 142.24 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dc589504-d35f-4144-9307-449bb0940316")
-		(property "Reference" "#PWR022"
-			(at 142.24 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 142.24 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 142.24 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b33be010-0b26-4e4d-9342-8b645a6d5f29")
-		)
-		(instances
-			(project "HSM_Project"
-				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/065986a2-ca92-4064-aa1f-d48692b7b6d2"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7344,7 +7270,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "30k"
 			(at 181.61 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7354,7 +7280,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 181.61 55.118 90)
 			(hide yes)
 			(show_name no)
