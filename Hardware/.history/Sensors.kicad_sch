@@ -6150,7 +6150,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SFH_313_FA-3_4:XDCR_SFH_313_FA-3_4"
+		(property "Footprint" "Micromouse:SFH313_Header"
 			(at 152.4 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7554,7 +7554,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SFH_4550:DIO_SFH_4550"
+		(property "Footprint" "Micromouse:SFH4550_HEADER"
 			(at 81.28 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8616,7 +8616,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SFH_313_FA-3_4:XDCR_SFH_313_FA-3_4"
+		(property "Footprint" "Micromouse:SFH313_Header"
 			(at 78.74 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8867,7 +8867,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SFH_313_FA-3_4:XDCR_SFH_313_FA-3_4"
+		(property "Footprint" "Micromouse:SFH313_Header"
 			(at 29.21 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9836,7 +9836,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SFH_313_FA-3_4:XDCR_SFH_313_FA-3_4"
+		(property "Footprint" "Micromouse:SFH313_Header"
 			(at 102.87 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10325,7 +10325,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SFH_313_FA-3_4:XDCR_SFH_313_FA-3_4"
+		(property "Footprint" "Micromouse:SFH313_Header"
 			(at 54.61 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10812,7 +10812,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SFH_4550:DIO_SFH_4550"
+		(property "Footprint" "Micromouse:SFH4550_HEADER"
 			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11039,7 +11039,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SFH_4550:DIO_SFH_4550"
+		(property "Footprint" "Micromouse:SFH4550_HEADER"
 			(at 232.41 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -12978,7 +12978,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SFH_313_FA-3_4:XDCR_SFH_313_FA-3_4"
+		(property "Footprint" "Micromouse:SFH313_Header"
 			(at 125.73 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -13839,7 +13839,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SFH_4550:DIO_SFH_4550"
+		(property "Footprint" "Micromouse:SFH4550_HEADER"
 			(at 119.38 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -14501,7 +14501,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SFH_4550:DIO_SFH_4550"
+		(property "Footprint" "Micromouse:SFH4550_HEADER"
 			(at 40.64 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -15903,7 +15903,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SFH_4550:DIO_SFH_4550"
+		(property "Footprint" "Micromouse:SFH4550_HEADER"
 			(at 193.04 44.45 0)
 			(hide yes)
 			(show_name no)

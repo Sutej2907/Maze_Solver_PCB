@@ -2395,14 +2395,15 @@
 				(at 6.35 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "TB6612 Breakout Board"
+				(at 6.858 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4495,127 +4496,6 @@
 		)
 	)
 	(symbol
-		(lib_id "tb6612_module:TB6612_module")
-		(at 59.69 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "69a4403b-3449-47f4-847d-0fab7158c827")
-		(property "Reference" "TB1"
-			(at 66.04 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 59.69 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TB6612:TB6612 module"
-			(at 59.69 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bea55ca0-fd32-4420-bd6e-193fdf58941d")
-		)
-		(pin "2"
-			(uuid "5ee8550e-2c63-46d5-8839-7bbc911c20e8")
-		)
-		(pin "3"
-			(uuid "5a4c77ef-3739-4979-be09-50b2882e094d")
-		)
-		(pin "4"
-			(uuid "a2060df1-7fcb-4dfc-a508-8bf80dc96717")
-		)
-		(pin "9"
-			(uuid "176e5043-d30e-4a82-92f4-addd310f506f")
-		)
-		(pin "11"
-			(uuid "e6f1cb62-b55f-42f8-ad92-af3cece3945d")
-		)
-		(pin "16"
-			(uuid "4658158b-1c8f-4455-85cc-323b3065247e")
-		)
-		(pin "10"
-			(uuid "c5bb009e-927b-4354-9641-67e6d5f34247")
-		)
-		(pin "5"
-			(uuid "43d4aa18-8ac6-440a-ab07-58efcbbf8b5f")
-		)
-		(pin "6"
-			(uuid "6e7d7b6c-635c-41ab-9303-0b923a49d96d")
-		)
-		(pin "8"
-			(uuid "8d5c6af9-4a88-48d7-b58f-a7f6e942e4aa")
-		)
-		(pin "7"
-			(uuid "32035a4e-a549-48f2-a11b-2ed200d7157d")
-		)
-		(pin "12"
-			(uuid "e6e801fc-d1b2-4468-b15a-c56fee8df28e")
-		)
-		(pin "13"
-			(uuid "064d9b4c-fc6f-4d7a-ad68-389d6f5f409f")
-		)
-		(pin "14"
-			(uuid "2b0adc66-bacd-4726-bb5c-c3171cc25a50")
-		)
-		(pin "15"
-			(uuid "4078e975-b38f-4aec-97b6-a7b75c0ea8fb")
-		)
-		(instances
-			(project "HSM_Project"
-				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/ac18e862-6ffc-44ea-b67e-4cb824815cfe"
-					(reference "TB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 233.68 82.55 0)
 		(unit 1)
@@ -5738,7 +5618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "Micromouse:LED_D3.0mm_micromouse"
 			(at 130.81 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -6580,6 +6460,129 @@
 			(project "HSM_Project"
 				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/ac18e862-6ffc-44ea-b67e-4cb824815cfe"
 					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tb6612_module:TB6612_module")
+		(at 59.69 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee48ee14-362b-4496-80bc-72bac66dbc11")
+		(property "Reference" "TB1"
+			(at 66.04 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TB6612 Breakout Board"
+			(at 66.04 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TB6612:TB6612 module"
+			(at 59.69 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "ffc324cd-4a7a-4f57-a61b-30fd210a4434")
+		)
+		(pin "2"
+			(uuid "30b8d72c-e66c-49fd-9254-c1d06393c189")
+		)
+		(pin "4"
+			(uuid "e0541001-42d7-418e-b6d9-9d966d37887b")
+		)
+		(pin "6"
+			(uuid "077f7fa6-2be2-449a-b385-62b5256902eb")
+		)
+		(pin "5"
+			(uuid "359aa178-d6f8-4716-b081-8a96b5e0707e")
+		)
+		(pin "11"
+			(uuid "aeccfe46-85bf-4bf0-b085-cf7c649770eb")
+		)
+		(pin "10"
+			(uuid "354c3651-9509-4032-9c08-bbef6b4fb502")
+		)
+		(pin "1"
+			(uuid "7fe0ddf3-9b70-46f7-af25-50d625bc70f4")
+		)
+		(pin "3"
+			(uuid "d1f4c2b3-ac85-4f48-8dfa-1a546dbb9615")
+		)
+		(pin "9"
+			(uuid "13d3ac7e-d61f-4b9d-81a6-9b134cfcd765")
+		)
+		(pin "8"
+			(uuid "26297831-28a5-492d-be87-fa5452dbd9a4")
+		)
+		(pin "13"
+			(uuid "9d9a7cd9-4768-4669-988f-cdf9a2f27236")
+		)
+		(pin "14"
+			(uuid "667d54ca-e3f6-47f6-ad88-a70b29e2a659")
+		)
+		(pin "15"
+			(uuid "df740364-1849-4f1e-8928-ac66245b80a5")
+		)
+		(pin "12"
+			(uuid "8b2bfe8b-ef29-466f-93dd-10228c5b88e3")
+		)
+		(pin "16"
+			(uuid "714c8270-bff8-4d1c-ad69-76c2250e1bd7")
+		)
+		(instances
+			(project "HSM_Project"
+				(path "/10a490ba-03bd-419b-97f3-e1946b38fc40/ac18e862-6ffc-44ea-b67e-4cb824815cfe"
+					(reference "TB1")
 					(unit 1)
 				)
 			)
